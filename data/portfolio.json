@@ -30,10 +30,10 @@
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Project One",
+      "description": " A Web Chat-App",
+      "imageSrc": "/images/web-chat-app.png",
+      "url": "https://chat-app-j7od.onrender.com"
     },
     {
       "id": "2",
@@ -55,45 +55,31 @@
       "description": "Marketing",
       "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "5",
-      "title": "Project Five",
-      "description": "Development",
-      "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
-    },
-    {
-      "id": "6",
-      "title": "Project Six",
-      "description": "Design & Development",
-      "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
     }
   ],
   "services": [
     {
       "id": "1",
-      "title": "Art Direction",
-      "description": "We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."
+      "title": "Frontend Development",
+      "description": "I build responsive and user-friendly web applications using React, Tailwind CSS, DaisyUI. I focus on creating seamless UI/UX experiences."
     },
     {
       "id": "2",
-      "title": "Branding",
-      "description": "We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."
+      "title": "Backend Development",
+      "description": "I develop secure and scalable server-side applications using Node.js and Express.js. I also implement authentication, REST APIs."
     },
     {
       "id": "3",
-      "title": "Web Design",
-      "description": "We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."
+      "title": "Database Management",
+      "description": "I design and manage databases using MongoDB."
     },
     {
       "id": "4",
-      "title": "3D Design",
-      "description": "We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."
+      "title": "Full-Stack Development",
+      "description": "I create end-to-end web applications by integrating frontend, backend, and databases. My goal is to deliver high-performance, scalable web solutions."
     }
   ],
-  "aboutpara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  "aboutpara": "Hey there! I am Aditya Singha. I'm a MERN stack developer passionate about building full-stack web applications. I love turning ideas into reality using React, Node.js, and MongoDB. Let’s connect and build something awesome together! 🚀",
   "resume": {
     "tagline": "👋  I'm a software engineer, product designer.",
     "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
