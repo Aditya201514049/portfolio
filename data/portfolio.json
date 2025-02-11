@@ -88,19 +88,19 @@
       },
       {
         "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-        "dates": "July 2020 - March 2022",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+        "dates": "2018",
+        "type": "Internship",
+        "position": "Intern",
+        "bullets": "Worked as intern in GP house"
       }
     ],
     "education": {
       "universityName": "Metropolitan University, Sylhet",
       "universityDate": "2020-2024",
-      "universityPara": ""
+      "universityPara": "BSc in Computer Science and Engineering"
     },
     "languages": ["Javascript", "HTML5", "CSS", "Python"],
     "frameworks": ["React", "Express", "NodeJs"],
-    "others": ["VS Code", "Postman"]
+    "others": ["VS Code", "Postman", "MongoDB"]
   }
 }
