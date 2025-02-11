@@ -25,17 +25,17 @@
   "projects": [
     {
       "id": "1",
-      "title": "Project One",
-      "description": " A Web Chat-App",
+      "title": "Chat-App",
+      "description": " A Web Chat-App where user can register , login and chat with other users",
       "imageSrc": "/images/web-chat-app.png",
       "url": "https://chat-app-j7od.onrender.com"
     },
     {
       "id": "2",
-      "title": "Project Two",
-      "description": "Web Development",
-      "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Task Manager",
+      "description": "A web application of task manager where user can login, register, add, delete tasks and can sort them as required",
+      "imageSrc": "/images/task-manager-screenshot.png",
+      "url": "https://task-manager-1-6ubf.onrender.com"
     },
     {
       "id": "3",
@@ -76,14 +76,14 @@
   ],
   "aboutpara": "Hey there! I am Aditya Singha. I'm a MERN stack developer passionate about building full-stack web applications. I love turning ideas into reality using React, Node.js, and MongoDB. Let’s connect and build something awesome together! 🚀",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "tagline": "👋  I'm a Full stack developer",
+    "description": "",
     "experiences": [
       {
         "id": "1",
-        "dates": "March 2022 - Present",
+        "dates": "March 2024 - Present",
         "type": "Full Time",
-        "position": "Frontend Engineer at X",
+        "position": "Full stack MERN developer",
         "bullets": "Bullet One, Bullet Two"
       },
       {
@@ -95,9 +95,9 @@
       }
     ],
     "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "universityName": "Metropolitan University, Sylhet",
+      "universityDate": "2020-2024",
+      "universityPara": ""
     },
     "languages": ["Javascript", "HTML5", "CSS", "Python", "Go"],
     "frameworks": ["React", "Typescript", "NodeJs"],
