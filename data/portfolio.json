@@ -1,1 +1,106 @@
-{"name":"Aditya","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Aditya Singha ","headerTaglineThree":"devloper","headerTaglineFour":" based in Sylhet , Bangladesh","showCursor":true,"showBlog":false,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/Aditya201514049"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/aditya-singha-joy/"},{"id":"3","title":"Twitter","link":"https://x.com/Adi_singha"},{"id":"5","title":"Email","link":"mailto:adityasingha084@gmail.com"}],"projects":[{"id":"1","title":"Chat-App","description":" A Web Chat-App where user can register , login and chat with other users","imageSrc":"/images/web-chat-app.png","url":"https://chat-app-j7od.onrender.com"},{"id":"2","title":"Task Manager","description":"A web application of task manager where user can login, register, add, delete tasks and can sort them as required","imageSrc":"/images/task-manager-screenshot.png","url":"https://task-manager-1-6ubf.onrender.com"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Frontend Development","description":"I build responsive and user-friendly web applications using React, Tailwind CSS, DaisyUI. I focus on creating seamless UI/UX experiences."},{"id":"2","title":"Backend Development","description":"I develop secure and scalable server-side applications using Node.js and Express.js. I also implement authentication, REST APIs."},{"id":"3","title":"Database Management","description":"I design and manage databases using MongoDB."},{"id":"4","title":"Full-Stack Development","description":"I create end-to-end web applications by integrating frontend, backend, and databases. My goal is to deliver high-performance, scalable web solutions."}],"aboutpara":"Hey there! I am Aditya Singha. I'm a MERN stack developer passionate about building full-stack web applications. I love turning ideas into reality using React, Node.js, and MongoDB. Let’s connect and build something awesome together! 🚀","resume":{"tagline":"👋  I'm a Full stack developer","description":"","experiences":[{"id":"1","dates":"March 2024 - Present","type":"Full Time","position":"Full stack MERN developer","bullets":"Web Chat App, Web Task Manager"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"Metropolitan University, Sylhet","universityDate":"2020-2024","universityPara":""},"languages":["Javascript","HTML5","CSS","Python"],"frameworks":["React","Express","NodeJs"],"others":["VS Code","Postman"]}}
+{
+  "name": "Aditya",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Aditya Singha ",
+  "headerTaglineThree": "devloper",
+  "headerTaglineFour": " based in Sylhet , Bangladesh",
+  "showCursor": true,
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/Aditya201514049"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/aditya-singha-joy/"
+    },
+    { "id": "3", "title": "Twitter", "link": "https://x.com/Adi_singha" },
+    { "id": "5", "title": "Email", "link": "mailto:adityasingha084@gmail.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Chat-App",
+      "description": " A Web Chat-App where user can register , login and chat with other users",
+      "imageSrc": "/images/web-chat-app.png",
+      "url": "https://chat-app-j7od.onrender.com"
+    },
+    {
+      "id": "2",
+      "title": "Task Manager",
+      "description": "A web application of task manager where user can login, register, add, delete tasks and can sort them as required",
+      "imageSrc": "/images/task-manager-screenshot.png",
+      "url": "https://task-manager-1-6ubf.onrender.com"
+    },
+    {
+      "id": "3",
+      "title": "Project Three",
+      "description": "Design",
+      "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "url": ""
+    },
+    {
+      "id": "4",
+      "title": "Project Four",
+      "description": "Marketing",
+      "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "url": ""
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Frontend Development",
+      "description": "I build responsive and user-friendly web applications using React, Tailwind CSS, DaisyUI. I focus on creating seamless UI/UX experiences."
+    },
+    {
+      "id": "2",
+      "title": "Backend Development",
+      "description": "I develop secure and scalable server-side applications using Node.js and Express.js. I also implement authentication, REST APIs."
+    },
+    {
+      "id": "3",
+      "title": "Database Management",
+      "description": "I design and manage databases using MongoDB."
+    },
+    {
+      "id": "4",
+      "title": "Full-Stack Development",
+      "description": "I create end-to-end web applications by integrating frontend, backend, and databases. My goal is to deliver high-performance, scalable web solutions."
+    }
+  ],
+  "aboutpara": "Hey there! I am Aditya Singha. I'm a MERN stack developer passionate about building full-stack web applications. I love turning ideas into reality using React, Node.js, and MongoDB. Let’s connect and build something awesome together! 🚀",
+  "resume": {
+    "tagline": "👋  I'm a Full stack developer",
+    "description": "",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2024 - Present",
+        "type": "Full Time",
+        "position": "Full stack MERN developer",
+        "bullets": "Web Chat App, Web Task Manager"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "July 2020 - March 2022",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+      }
+    ],
+    "education": {
+      "universityName": "Metropolitan University, Sylhet",
+      "universityDate": "2020-2024",
+      "universityPara": ""
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Python"],
+    "frameworks": ["React", "Express", "NodeJs"],
+    "others": ["VS Code", "Postman"]
+  }
+}
