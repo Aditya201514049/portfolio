@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Cursor from "../components/Cursor";
@@ -53,9 +54,16 @@ const Resume = () => {
               <div className="mt-2">
                 <Socials />
               </div>
+              {/* Download Resume PDF Button */}
+              <div className="mt-5 flex justify-center">
+                <Button type="primary">
+                  <a href="/CV.pdf" download="Aditya_CV.pdf">
+                    Download Resume PDF
+                  </a>
+                </Button>
+              </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Experience</h1>
-
                 {resume.experiences.map(
                   ({ id, dates, type, position, bullets }) => (
                     <ProjectResume
@@ -95,7 +103,6 @@ const Resume = () => {
                       </ul>
                     </div>
                   )}
-
                   {resume.frameworks && (
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Frameworks</h2>
@@ -108,7 +115,6 @@ const Resume = () => {
                       </ul>
                     </div>
                   )}
-
                   {resume.others && (
                     <div className="mt-2 mob:mt-5">
                       <h2 className="text-lg">Others</h2>
