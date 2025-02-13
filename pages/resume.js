@@ -57,7 +57,7 @@ const Resume = () => {
               {/* Download Resume PDF Button */}
               <div className="mt-5 flex justify-center">
                 <Button type="primary">
-                  <a href="/CV.pdf" download="Aditya_CV.pdf">
+                  <a href="/Aditya_CV.pdf" download="Aditya_CV.pdf">
                     Download Resume PDF
                   </a>
                 </Button>
