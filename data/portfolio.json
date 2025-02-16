@@ -27,14 +27,14 @@
       "id": "1",
       "title": "Chat-App",
       "description": " A Web Chat-App where user can register , login and chat with other users",
-      "imageSrc": "web-chat-app.png",
+      "imageSrc": "web-chat-app.PNG",
       "url": "https://chat-app-j7od.onrender.com"
     },
     {
       "id": "2",
       "title": "Task Manager",
       "description": "A web application of task manager where user can login, register, add, delete tasks and can sort them as required",
-      "imageSrc": "task-manager-screenshot.png",
+      "imageSrc": "task-manager-screenshot.PNG",
       "url": "https://task-manager-1-6ubf.onrender.com"
     }
   ],
