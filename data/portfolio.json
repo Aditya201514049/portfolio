@@ -32,6 +32,13 @@
     },
     {
       "id": "2",
+      "title": "Rock Paper Scissors",
+      "description": "A easy game of Rock Paper Scissors where user can play with computer. The web app built using next js, authentication added using firebase, styling added using tailwind and daisyUI",
+      "imageSrc": "rock-paper-scissor.PNG",
+      "url": "https://rock-paper-scissors-rosy-pi.vercel.app"
+    },
+    {
+      "id": "3",
       "title": "Task Manager",
       "description": "A web application of task manager where user can login, register, add, delete tasks and can sort them as required",
       "imageSrc": "task-manager-screenshot.PNG",
