@@ -43,6 +43,13 @@
       "description": "A web application of task manager where user can login, register, add, delete tasks and can sort them as required",
       "imageSrc": "task-manager-screenshot.PNG",
       "url": "https://task-manager-1-6ubf.onrender.com"
+    },
+    {
+      "id": "4",
+      "title": "Sales-Dashboard",
+      "description": "A web application of Sales dashboard where user can add, delete, edit shops, products, sales and can sort them as required, also they can visualize the analytics",
+      "imageSrc": "Dashboard-app.PNG",
+      "url": "https://dashboard-rho-puce.vercel.app"
     }
   ],
   "services": [
