@@ -104,6 +104,7 @@ export default function Home() {
                 name={project.title}
                 description={project.description}
                 onClick={() => window.open(project.url)}
+                techStack={project.techStack}
               />
             ))}
           </div>
