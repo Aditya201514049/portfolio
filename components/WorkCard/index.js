@@ -9,12 +9,13 @@ const techIconMap = {
   mongodb: { path: "mongodb/mongodb-original", color: true },
   nextjs: { path: "nextjs/nextjs-original", color: false },
   firebase: { path: "firebase/firebase-plain", color: true },
-  tailwind: { path: "tailwindcss/tailwindcss-plain", color: true },
 };
 
 // Images for logos that can't be found in devicon
 const specialLogos = {
-  shadcn: "https://ui.shadcn.com/favicon.ico"
+  shadcn: "https://ui.shadcn.com/favicon.ico",
+  tailwind: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain-wordmark.svg",
+  daisyui: "https://raw.githubusercontent.com/saadeghi/daisyui/master/src/docs/static/images/daisyui-logo/favicon-192.png"
 };
 
 const WorkCard = ({ img, name, description, onClick, techStack }) => {
