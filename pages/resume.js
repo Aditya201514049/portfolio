@@ -63,7 +63,7 @@ const Resume = () => {
                 </Button>
               </div>
               <div className="mt-5">
-                <h1 className="text-2xl font-bold">Experience</h1>
+                <h1 className="text-2xl font-bold">Career Highlights</h1>
                 {resume.experiences.map(
                   ({ id, dates, type, position, bullets }) => (
                     <ProjectResume
