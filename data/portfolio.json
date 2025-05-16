@@ -29,6 +29,7 @@
       "description": "A web application of Sales dashboard where user can add, delete, edit shops, products, sales and can sort them as required, also they can visualize the analytics",
       "imageSrc": "Dashboard-app.PNG",
       "url": "https://dashboard-rho-puce.vercel.app",
+      "githubUrl": "https://github.com/Aditya201514049/dashboard",
       "techStack": ["nextjs", "firebase", "tailwind", "shadcn"]
     },
     {
@@ -37,6 +38,7 @@
       "description": " A Web Chat-App where user can register , login and chat with other users",
       "imageSrc": "web-chat-app.PNG",
       "url": "https://chat-app-j7od.onrender.com",
+      "githubUrl": "https://github.com/Aditya201514049/chat-app",
       "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
     },
     {
@@ -45,6 +47,7 @@
       "description": "A web application of task manager where user can login, register, add, delete tasks and can sort them as required",
       "imageSrc": "task-manager-screenshot.PNG",
       "url": "https://task-manager-1-6ubf.onrender.com",
+      "githubUrl": "https://github.com/Aditya201514049/task-manager",
       "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
     },
     {
@@ -53,6 +56,7 @@
       "description": "A easy game of Rock Paper Scissors where user can play with computer. The web app built using next js, authentication added using firebase, styling added using tailwind and daisyUI",
       "imageSrc": "rock-paper-scissor.PNG",
       "url": "https://rock-paper-scissors-rosy-pi.vercel.app",
+      "githubUrl": "https://github.com/Aditya201514049/rock_paper_scissor_game",
       "techStack": ["nextjs", "firebase", "tailwind"]
     },
     {
@@ -61,6 +65,7 @@
       "description": "ContentGuardian is a robust content management system with role-based access control (RBAC) for managing blog posts and comments. It provides different levels of access and permissions based on user roles.",
       "imageSrc": "Content-guardian.PNG",
       "url": "https://contentguardian-1.onrender.com",
+      "githubUrl": "https://github.com/Aditya201514049/ContentGuardian",
       "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
     }
   ],

@@ -18,7 +18,14 @@ const specialLogos = {
   daisyui: "https://raw.githubusercontent.com/saadeghi/daisyui/master/src/docs/static/images/daisyui-logo/favicon-192.png"
 };
 
-const WorkCard = ({ img, name, description, onClick, techStack }) => {
+const WorkCard = ({ img, name, description, onClick, techStack, githubUrl }) => {
+  // Function to handle GitHub link click without triggering the parent card click
+  const handleGitHubClick = (e) => {
+    if (githubUrl) {
+      e.stopPropagation(); // Prevent the parent card's onClick from firing
+      window.open(githubUrl, "_blank", "noopener,noreferrer");
+    }
+  };
   return (
     <div
       className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
@@ -43,6 +50,26 @@ const WorkCard = ({ img, name, description, onClick, techStack }) => {
       
       {techStack && techStack.length > 0 && (
         <div className="mt-4 flex flex-wrap gap-4">
+          {/* GitHub repository link if available */}
+          {githubUrl && (
+            <div className="relative group">
+              <div 
+                className="w-12 h-12 flex items-center justify-center rounded-md p-1.5 bg-white dark:bg-gray-800 shadow-sm cursor-pointer"
+                onClick={handleGitHubClick}
+              >
+                <img 
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt="GitHub Repository"
+                  width={40}
+                  height={40}
+                  className="transition-all duration-300 hover:scale-110 dark:invert"
+                />
+              </div>
+              <span className="absolute -bottom-6 left-1/2 transform -translate-x-1/2 bg-gray-800 dark:bg-gray-700 text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap z-10">
+                GitHub Repo
+              </span>
+            </div>
+          )}
           {techStack.map((tech, index) => {
             // Check if we have a special logo for this tech
             if (specialLogos[tech]) {
