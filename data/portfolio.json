@@ -1,1 +1,132 @@
-{"name":"Aditya","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Aditya Singha ","headerTaglineThree":"devloper","headerTaglineFour":" based in Sylhet , Bangladesh","showCursor":true,"showBlog":false,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/Aditya201514049"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/aditya-singha-joy/"},{"id":"3","title":"Twitter","link":"https://x.com/Adi_singha"},{"id":"5","title":"Email","link":"mailto:adityasingha084@gmail.com"}],"projects":[{"id":"1","title":"Sales-Dashboard","description":"A web application of Sales dashboard where user can add, delete, edit shops, products, sales and can sort them as required, also they can visualize the analytics","imageSrc":"Dashboard-app.PNG","url":"https://dashboard-rho-puce.vercel.app","githubUrl":"https://github.com/Aditya201514049/dashboard","techStack":["nextjs","firebase","tailwind","shadcn"]},{"id":"2","title":"Chat-App","description":" A Web Chat-App where user can register , login and chat with other users","imageSrc":"web-chat-app.PNG","url":"https://chat-app-j7od.onrender.com","githubUrl":"https://github.com/Aditya201514049/chat-app","techStack":["react","nodejs","express","mongodb","tailwind"]},{"id":"3","title":"Task Manager","description":"A web application of task manager where user can login, register, add, delete tasks and can sort them as required","imageSrc":"task-manager-screenshot.PNG","url":"https://task-manager-1-6ubf.onrender.com","githubUrl":"https://github.com/Aditya201514049/task-manager","techStack":["react","nodejs","express","mongodb","tailwind"]},{"id":"4","title":"Rock Paper Scissors","description":"A easy game of Rock Paper Scissors where user can play with computer. The web app built using next js, authentication added using firebase, styling added using tailwind and daisyUI","imageSrc":"rock-paper-scissor.PNG","url":"https://rock-paper-scissors-rosy-pi.vercel.app","githubUrl":"https://github.com/Aditya201514049/rock_paper_scissor_game","techStack":["nextjs","firebase","tailwind"]},{"id":"5","title":"Content-Guardian","description":"ContentGuardian is a robust content management system with role-based access control (RBAC) for managing blog posts and comments. It provides different levels of access and permissions based on user roles.","imageSrc":"Content-guardian.PNG","url":"https://contentguardian-1.onrender.com","githubUrl":"https://github.com/Aditya201514049/ContentGuardian","techStack":["react","nodejs","express","mongodb","tailwind"]},{"id":"58994afc-3193-4c3d-84da-ec5a7953a8ea","title":"Weather App","description":"An weather web app which shows real time weather data","imageSrc":"weather-app.PNG","url":"https://weather-app-one-zeta-78.vercel.app"},{"id":"6a67bd25-a7f8-459e-a85d-95856db46cf8","title":"New Project","description":"Web Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Frontend Development","description":"I build responsive and user-friendly web applications using React, NextJs Tailwind CSS, DaisyUI. I focus on creating seamless UI/UX experiences."},{"id":"2","title":"Backend Development","description":"I develop secure and scalable server-side applications using Node.js and Express.js. I also implement authentication, REST APIs."},{"id":"3","title":"Database Management","description":"I design and manage databases using MongoDB, Firebase firestore."},{"id":"4","title":"Full-Stack Development","description":"I create end-to-end web applications by integrating frontend, backend, and databases. My goal is to deliver high-performance, scalable web solutions."}],"aboutpara":"Hey there! I am Aditya Singha. I'm a MERN stack developer passionate about building full-stack web applications. I love turning ideas into reality using React, Node.js, and MongoDB. Let's connect and build something awesome together! 🚀","resume":{"tagline":"👋  I'm a Full stack developer","description":"","experiences":[{"id":"1","dates":"March 2024 - Present","type":"Full Time","position":"Full stack MERN developer","bullets":"Web Chat App, Web Task Manager, Web Sales Dashboard"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"2018","type":"Internship","position":"Intern","bullets":"Worked as intern in GP house"}],"education":{"universityName":"Metropolitan University, Sylhet","universityDate":"2020-2024","universityPara":"BSc in Computer Science and Engineering"},"languages":["Javascript","HTML5","CSS","Python"],"frameworks":["React","Express","NodeJs","Next JS"],"others":["VS Code","Postman","MongoDB","Firebase"]}}
+{
+  "name": "Aditya",
+  "headerTaglineOne": "Hello 👋",
+  "headerTaglineTwo": "I'm Aditya Singha ",
+  "headerTaglineThree": "devloper",
+  "headerTaglineFour": " based in Sylhet , Bangladesh",
+  "showCursor": true,
+  "showBlog": false,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "Github",
+      "link": "https://github.com/Aditya201514049"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/aditya-singha-joy/"
+    },
+    { "id": "3", "title": "Twitter", "link": "https://x.com/Adi_singha" },
+    { "id": "5", "title": "Email", "link": "mailto:adityasingha084@gmail.com" }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Sales-Dashboard",
+      "description": "A web application of Sales dashboard where user can add, delete, edit shops, products, sales and can sort them as required, also they can visualize the analytics",
+      "imageSrc": "Dashboard-app.PNG",
+      "url": "https://dashboard-rho-puce.vercel.app",
+      "githubUrl": "https://github.com/Aditya201514049/dashboard",
+      "techStack": ["nextjs", "firebase", "tailwind", "shadcn"]
+    },
+    {
+      "id": "2",
+      "title": "Chat-App",
+      "description": " A Web Chat-App where user can register , login and chat with other users",
+      "imageSrc": "web-chat-app.PNG",
+      "url": "https://chat-app-j7od.onrender.com",
+      "githubUrl": "https://github.com/Aditya201514049/chat-app",
+      "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
+    },
+    {
+      "id": "3",
+      "title": "Task Manager",
+      "description": "A web application of task manager where user can login, register, add, delete tasks and can sort them as required",
+      "imageSrc": "task-manager-screenshot.PNG",
+      "url": "https://task-manager-1-6ubf.onrender.com",
+      "githubUrl": "https://github.com/Aditya201514049/task-manager",
+      "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
+    },
+    {
+      "id": "4",
+      "title": "Rock Paper Scissors",
+      "description": "A easy game of Rock Paper Scissors where user can play with computer. The web app built using next js, authentication added using firebase, styling added using tailwind and daisyUI",
+      "imageSrc": "rock-paper-scissor.PNG",
+      "url": "https://rock-paper-scissors-rosy-pi.vercel.app",
+      "githubUrl": "https://github.com/Aditya201514049/rock_paper_scissor_game",
+      "techStack": ["nextjs", "firebase", "tailwind"]
+    },
+    {
+      "id": "5",
+      "title": "Content-Guardian",
+      "description": "ContentGuardian is a robust content management system with role-based access control (RBAC) for managing blog posts and comments. It provides different levels of access and permissions based on user roles.",
+      "imageSrc": "Content-guardian.PNG",
+      "url": "https://contentguardian-1.onrender.com",
+      "githubUrl": "https://github.com/Aditya201514049/ContentGuardian",
+      "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
+    },
+    {
+      "id": "6",
+      "title": "Weather App",
+      "description": "An weather web app which shows real time weather data",
+      "imageSrc": "weather-app.PNG",
+      "url": "https://weather-app-one-zeta-78.vercel.app",
+      "githubUrl": "https://github.com/Aditya201514049/weather-app",
+      "techStack": ["nextjs", "tailwind"]
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Frontend Development",
+      "description": "I build responsive and user-friendly web applications using React, NextJs Tailwind CSS, DaisyUI. I focus on creating seamless UI/UX experiences."
+    },
+    {
+      "id": "2",
+      "title": "Backend Development",
+      "description": "I develop secure and scalable server-side applications using Node.js and Express.js. I also implement authentication, REST APIs."
+    },
+    {
+      "id": "3",
+      "title": "Database Management",
+      "description": "I design and manage databases using MongoDB, Firebase firestore."
+    },
+    {
+      "id": "4",
+      "title": "Full-Stack Development",
+      "description": "I create end-to-end web applications by integrating frontend, backend, and databases. My goal is to deliver high-performance, scalable web solutions."
+    }
+  ],
+  "aboutpara": "Hey there! I am Aditya Singha. I'm a MERN stack developer passionate about building full-stack web applications. I love turning ideas into reality using React, Node.js, and MongoDB. Let's connect and build something awesome together! 🚀",
+  "resume": {
+    "tagline": "👋  I'm a Full stack developer",
+    "description": "",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2024 - Present",
+        "type": "Full Time",
+        "position": "Full stack MERN developer",
+        "bullets": "Web Chat App, Web Task Manager, Web Sales Dashboard"
+      },
+      {
+        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+        "dates": "2018",
+        "type": "Internship",
+        "position": "Intern",
+        "bullets": "Worked as intern in GP house"
+      }
+    ],
+    "education": {
+      "universityName": "Metropolitan University, Sylhet",
+      "universityDate": "2020-2024",
+      "universityPara": "BSc in Computer Science and Engineering"
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Python"],
+    "frameworks": ["React", "Express", "NodeJs", "Next JS"],
+    "others": ["VS Code", "Postman", "MongoDB", "Firebase"]
+  }
+}
