@@ -46,7 +46,7 @@
       "title": "Task Manager",
       "description": "A web application of task manager where user can login, register, add, delete tasks and can sort them as required",
       "imageSrc": "task-manager-screenshot.PNG",
-      "url": "https://task-manager-1-6ubf.onrender.com",
+      "url": "https://task-manager-frontend-delta-seven.vercel.app",
       "githubUrl": "https://github.com/Aditya201514049/task-manager",
       "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
     },
