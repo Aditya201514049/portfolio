@@ -64,7 +64,7 @@
       "title": "Content-Guardian",
       "description": "ContentGuardian is a robust content management system with role-based access control (RBAC) for managing blog posts and comments. It provides different levels of access and permissions based on user roles.",
       "imageSrc": "Content-guardian.PNG",
-      "url": "https://contentguardian-1.onrender.com",
+      "url": "https://content-frontend-tau.vercel.app",
       "githubUrl": "https://github.com/Aditya201514049/ContentGuardian",
       "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
     },
