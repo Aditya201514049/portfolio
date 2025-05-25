@@ -36,7 +36,7 @@
       "id": "2",
       "title": "Chat-App",
       "description": " A Web Chat-App where user can register , login and chat with other users",
-      "imageSrc": "web-chat-app.PNG",
+      "imageSrc": "chat-app-1.PNG",
       "url": "https://chat-app-j7od.onrender.com",
       "githubUrl": "https://github.com/Aditya201514049/chat-app",
       "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
