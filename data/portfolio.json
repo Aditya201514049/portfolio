@@ -46,7 +46,7 @@
       "title": "Task Manager",
       "description": "A web application of task manager where user can login, register, add, delete tasks and can sort them as required",
       "imageSrc": "task-manager-screenshot.PNG",
-      "url": "https://task-manager-frontend-delta-seven.vercel.app",
+      "url": "https://task-manager-1-6ubf.onrender.com",
       "githubUrl": "https://github.com/Aditya201514049/task-manager",
       "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
     },
@@ -64,7 +64,7 @@
       "title": "Content-Guardian",
       "description": "ContentGuardian is a robust content management system with role-based access control (RBAC) for managing blog posts and comments. It provides different levels of access and permissions based on user roles.",
       "imageSrc": "Content-guardian.PNG",
-      "url": "https://content-frontend-tau.vercel.app",
+      "url": "https://contentguardian-1.onrender.com",
       "githubUrl": "https://github.com/Aditya201514049/ContentGuardian",
       "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
     },
