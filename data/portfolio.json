@@ -76,6 +76,15 @@
       "url": "https://weather-app-one-zeta-78.vercel.app",
       "githubUrl": "https://github.com/Aditya201514049/weather-app",
       "techStack": ["nextjs", "tailwind"]
+    },
+    {
+      "id": "7",
+      "title": "Fake Book Generator",
+      "description": "A fake book generator web app using faker.js where seeds number generate fake book info",
+      "imageSrc": "book-store.PNG",
+      "url": "https://book-data-generator-sable.vercel.app",
+      "githubUrl": "https://github.com/Aditya201514049/task-5",
+      "techStack": ["nextjs", "tailwind"]
     }
   ],
   "services": [
