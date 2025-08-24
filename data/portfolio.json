@@ -93,7 +93,7 @@
       "imageSrc": "user-management.PNG",
       "url": "https://task-4-e5ia.onrender.com",
       "githubUrl": "https://github.com/Aditya201514049/Task-4",
-      "techStack": ["react", "nodejs", "express"]
+      "techStack": ["react", "nodejs", "express", "postgresql", "bootstrap"]
     }
   ],
   "services": [

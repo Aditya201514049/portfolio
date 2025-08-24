@@ -9,13 +9,17 @@ const techIconMap = {
   mongodb: { path: "mongodb/mongodb-original", color: true },
   nextjs: { path: "nextjs/nextjs-original", color: false },
   firebase: { path: "firebase/firebase-plain", color: true },
+  postgresql: { path: "postgresql/postgresql-original", color: true },
+  bootstrap: { path: "bootstrap/bootstrap-original", color: true },
 };
 
 // Images for logos that can't be found in devicon
 const specialLogos = {
   shadcn: "https://ui.shadcn.com/favicon.ico",
   tailwind: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain-wordmark.svg",
-  daisyui: "https://raw.githubusercontent.com/saadeghi/daisyui/master/src/docs/static/images/daisyui-logo/favicon-192.png"
+  daisyui: "https://raw.githubusercontent.com/saadeghi/daisyui/master/src/docs/static/images/daisyui-logo/favicon-192.png",
+  postgresql: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  bootstrap: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
 };
 
 const WorkCard = ({ img, name, description, onClick, techStack, githubUrl }) => {
