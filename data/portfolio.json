@@ -52,6 +52,15 @@
     },
     {
       "id": "4",
+      "title": "Inventory Manager",
+      "description": "A web inventory manager where user can create inventories and create items inside them, set fynamic fields, RBAC admin access implemented",
+      "imageSrc": "inventory-manager.PNG",
+      "url": "https://inventory-management-frontend-7dgk.onrender.com",
+      "githubUrl": "https://github.com/Aditya201514049/inventory-management",
+      "techStack": ["react", "nodejs", "express", "postgresql", "tailwind"]
+    },
+    {
+      "id": "5",
       "title": "Rock Paper Scissors",
       "description": "A easy game of Rock Paper Scissors where user can play with computer. The web app built using next js, authentication added using firebase, styling added using tailwind and daisyUI",
       "imageSrc": "rock-paper-scissor.PNG",
@@ -60,7 +69,7 @@
       "techStack": ["nextjs", "firebase", "tailwind"]
     },
     {
-      "id": "5",
+      "id": "6",
       "title": "Content-Guardian",
       "description": "ContentGuardian is a robust content management system with role-based access control (RBAC) for managing blog posts and comments. It provides different levels of access and permissions based on user roles.",
       "imageSrc": "Content-guardian.PNG",
@@ -69,7 +78,7 @@
       "techStack": ["react", "nodejs", "express", "mongodb", "tailwind"]
     },
     {
-      "id": "6",
+      "id": "7",
       "title": "Weather App",
       "description": "An weather web app which shows real time weather data",
       "imageSrc": "weather-app.PNG",
@@ -78,7 +87,7 @@
       "techStack": ["nextjs", "tailwind"]
     },
     {
-      "id": "7",
+      "id": "8",
       "title": "Fake Book Generator",
       "description": "A fake book generator web app using faker.js where seeds number generate fake book info",
       "imageSrc": "book-store.PNG",
@@ -87,7 +96,7 @@
       "techStack": ["nextjs", "tailwind"]
     },
     {
-      "id": "ad308d24-e9cc-411d-9567-799002c47c44",
+      "id": "9",
       "title": "User Management System",
       "description": "A basic user management project where any user can block , delete any user.",
       "imageSrc": "user-management.PNG",
