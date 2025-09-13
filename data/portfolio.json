@@ -103,6 +103,15 @@
       "url": "https://task-4-e5ia.onrender.com",
       "githubUrl": "https://github.com/Aditya201514049/Task-4",
       "techStack": ["react", "nodejs", "express", "postgresql", "bootstrap"]
+    },
+    {
+      "id": "10",
+      "title": "Collaborative Presentation",
+      "description": "A professional, real-time collaborative presentation web application built with Next.js, Express, and Socket.io. Create, edit, and present slides together with your team in real-time.",
+      "imageSrc": "colla-pres.PNG",
+      "url": "https://collaborative-presentation-brb6.onrender.com",
+      "githubUrl": "https://github.com/Aditya201514049/task-6",
+      "techStack": ["nextjs", "nodejs", "express", "mongodb", "tailwind"]
     }
   ],
   "services": [
