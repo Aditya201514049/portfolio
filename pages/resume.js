@@ -62,6 +62,36 @@ const Resume = () => {
                   </a>
                 </Button>
               </div>
+              {/* Certificates Section */}
+              <div className="mt-5">
+                <h1 className="text-2xl font-bold">Certificates</h1>
+                <div className="flex flex-col gap-4 mt-2">
+                  <div
+                    className={`flex items-center justify-between p-4 rounded transition-colors duration-300
+                      ${theme.theme === "dark" ? "bg-slate-700 text-white" : "bg-gray-100 text-gray-900"}`}
+                  >
+                    <span className="font-semibold">Hult Prize Certificate</span>
+                    <Button
+                      type="primary"
+                      onClick={() => window.open('/Hult prize.pdf', '_blank', 'noopener,noreferrer')}
+                    >
+                      View
+                    </Button>
+                  </div>
+                  <div
+                    className={`flex items-center justify-between p-4 rounded transition-colors duration-300
+                      ${theme.theme === "dark" ? "bg-slate-700 text-white" : "bg-gray-100 text-gray-900"}`}
+                  >
+                    <span className="font-semibold">JavaScript Internship Certificate</span>
+                    <Button
+                      type="primary"
+                      onClick={() => window.open('/Javascript Intership.pdf', '_blank', 'noopener,noreferrer')}
+                    >
+                      View
+                    </Button>
+                  </div>
+                </div>
+              </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Career Highlights</h1>
                 {resume.experiences.map(
