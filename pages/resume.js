@@ -54,12 +54,14 @@ const Resume = () => {
               <div className="mt-2">
                 <Socials />
               </div>
-              {/* Download Resume PDF Button */}
-              <div className="mt-5 flex justify-center">
-                <Button type="primary">
-                  <a href="/Aditya_CV.pdf" download="Aditya_CV.pdf">
-                    Download Resume PDF
-                  </a>
+              {/* CV Section - theme sensitive block with View button */}
+              <div className={`mt-5 flex items-center justify-between p-4 rounded transition-colors duration-300 ${theme.theme === "dark" ? "bg-slate-700 text-white" : "bg-gray-100 text-gray-900"}`}>
+                <span className="font-semibold">Resume (CV)</span>
+                <Button
+                  type="primary"
+                  onClick={() => window.open('/Aditya_CV.pdf', '_blank', 'noopener,noreferrer')}
+                >
+                  View
                 </Button>
               </div>
               {/* Certificates Section */}
