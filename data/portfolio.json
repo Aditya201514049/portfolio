@@ -121,6 +121,15 @@
       "url": "https://job-portal-five-ruby.vercel.app",
       "githubUrl": "https://github.com/Aditya201514049/job-portal",
       "techStack": ["nextjs", "nodejs", "mongodb", "tailwind"]
+    },
+    {
+      "id": "12",
+      "title": "URL Shortener",
+      "description": "A full-stack URL shortener that lets users register/login, create short links, track clicks, and manage links in a dashboard.",
+      "imageSrc": "Url-shortener.PNG",
+      "url": "https://url-shortener-a0zg.onrender.com",
+      "githubUrl": "https://github.com/Aditya201514049/url-shortener",
+      "techStack": ["react", "nodejs", "express", "postgresql", "tailwind"]
     }
   ],
   "services": [
