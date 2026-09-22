@@ -1,79 +1,177 @@
-![thumbnail](https://user-images.githubusercontent.com/16558205/180779213-ea740975-3df1-460a-a964-0a623ee25872.png)
+# Aditya Singha Portfolio
 
-### Live - https://react-portfolio-template.netlify.app/
+A personal portfolio and blog built with Next.js, React, and Tailwind CSS. The site showcases work, services, social links, about information, and a Markdown-powered blog.
 
-### Demo Video - https://www.youtube.com/watch?v=62_HLbx2zLQ&t=9s
+Live site: https://portfolio-aditya-singhas-projects.vercel.app
 
-### Tutorials
+## Overview
 
-Youtube - https://www.youtube.com/watch?v=8cmJ2kR4SpM
+This project is a custom portfolio website focused on a clean, modern design and editable content. It is configured around a content file in `data/portfolio.json` and a blog system backed by Markdown files in `_posts/`.
 
-Blog - https://blog.chetanverma.com/how-to-build-a-portfolio-website-using-nextjs-and-tailwindcss
+## Tech Stack
 
-### Features - 
+- Next.js 12
+- React 18
+- Tailwind CSS
+- GSAP for section animations
+- `next-themes` for dark mode support
+- `gray-matter`, `remark`, and `remark-html` for blog content rendering
 
-- Modern Stack (Next.js + TailwindCSS)
-- Minimal Design
-- Easy To Browse
-- Easy To Customize your details With GUI
-- Blog Crud (Create, Read, Update, Delete blog with easy to use UI).
-- Dark Mode
+## Features
 
+- Responsive portfolio homepage
+- Project cards with links and tech stack tags
+- Services and about sections
+- Social links and contact information
+- Dark mode support
+- Markdown-based blog listing and post details
+- Development-only dashboard at `/edit` to update portfolio content
+- Content-driven structure using JSON and Markdown files
 
-### Sections
+## Project Structure
 
-- Header
-- Work
-- Services
-- About
-- Contact
-- Markdown Blog
+```bash
+.
+├── _posts/                  # Markdown blog posts
+├── animations/              # GSAP animation helpers
+├── components/              # Reusable UI components
+├── data/
+│   └── portfolio.json       # Main portfolio content source
+├── pages/
+│   ├── api/
+│   │   ├── blog/            # Blog management API routes
+│   │   └── portfolio.js     # Dev-only JSON save route
+│   ├── blog/
+│   │   ├── [slug].js        # Individual post page
+│   │   └── index.js         # Blog listing page
+│   ├── _app.js
+│   ├── edit.js              # Dashboard for editing content
+│   ├── index.js             # Homepage
+│   └── resume.js            # Resume page
+├── public/
+│   └── images/
+├── styles/
+├── utils/
+│   ├── api.js               # Blog post retrieval utility
+│   ├── index.js
+│   └── markdownToHtml.js
+├── next.config.js
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── README.md
+├── yarn.lock
+└── .eslintrc.json
+```
 
+## Getting Started
 
-### How To Use
+1. Clone the repository
+2. Install dependencies:
 
-- Clone this repo
-- run `yarn`
-- `yarn dev`
+```bash
+yarn install
+```
 
+3. Run the app locally:
 
-### How To Deploy - 
+```bash
+yarn dev
+```
 
-- There are many ways to Deploy this repo.
-- here we are gonna use netlify
-- Login into netlify with github
-- after login select the forked repo or the repo you want to deploy
-- after selecting netlify will automatially deploy your website.
+4. Open the site in your browser:
 
-Quickes way to deploy this repo - 
+```bash
+http://localhost:3000
+```
 
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/chetanverma16/react-portfolio-template)
+## Production Build
 
+```bash
+yarn build
+yarn start
+```
 
-### How To Contribute - 
+## Customizing the Portfolio
 
-I would be very happy to review your PRs and all the awesome things that you can improve on this portfolio.
+The portfolio data is stored in `data/portfolio.json`.
 
+This file contains fields like:
 
-### Tech Stack Used - 
-- Next.js
-- TailwindCSS
+- `name`
+- `headerTaglineOne` to `headerTaglineFour`
+- `socials`
+- `projects`
+- `services`
+- `aboutpara`
+- `resume`
+- `showBlog`, `showResume`, `showCursor`, `darkMode`
 
+Edit this file or use the development dashboard to update the content without modifying the page structure.
 
-### Thanks
+## Development Editor
 
-If you liked this portfolio template, don't forget to give it a ⭐.
+When running in development mode, the app exposes a dashboard at `/edit`.
 
-## Awesome Contributors
-[@Aryan3212](https://github.com/Aryan3212) [@achu-krishna](https://github.com/achu-krishna)
+It allows changes to:
 
-## Supporting
-Many hours of hard work have gone into this project. Your support will be very appreciated!
+- header text
+- project listings
+- services
+- social links
+- resume information
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/chetanverma)
+The page posts updates to `pages/api/portfolio.js`, which writes the JSON back to `data/portfolio.json`.
 
+> This editing flow is intentionally limited to development mode.
 
+## Blog Posts
 
+Blog posts are Markdown files in `_posts/` and are parsed using `gray-matter` and `remark`.
 
+A typical post includes frontmatter such as:
 
+```md
+---
+date: '2022-07-15T11:50:54.000Z'
+title: Amazing Blog
+preview: A short summary of the article
+image: https://example.com/image.jpg
+---
 
+# Heading One
+
+Your blog content here.
+```
+
+Posts are listed at `/blog` and read at `/blog/[slug]`.
+
+## Deployment
+
+This project is compatible with Vercel and other standard Next.js hosting platforms.
+
+Typical deployment flow:
+
+1. Push the repo to GitHub
+2. Import it into Vercel
+3. Use the default Next.js build settings
+4. Deploy
+
+## Scripts
+
+```bash
+yarn dev      # local development server
+yarn build    # production build
+yarn start    # production server
+yarn lint     # lint checks
+```
+
+## Notes
+
+- The content is intentionally data-driven, which makes customization simple.
+- Some values in `data/portfolio.json` are personal to the current owner and should be replaced with your own details.
+- Blog and edit functionality are designed primarily for development use.
+
+## License
+
+This project is provided as-is for personal and educational use.
