@@ -135,7 +135,7 @@
       "id": "13",
       "title": "Job Portal (Ostad Course Project)",
       "description": "A complete MERN stack Job Portal website where companies can post jobs and users can browse and apply for them.",
-      "imageSrc": "Job-Portal-Ostad Course.PNG",
+      "imageSrc": "Job-Portal-Ostad-Course.PNG",
       "url": "https://job-portal-ostad.vercel.app",
       "githubUrl": "https://github.com/Aditya201514049/Job-portal-ostad",
       "techStack": ["react", "nodejs", "mongodb", "tailwind"]
