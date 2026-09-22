@@ -22,7 +22,7 @@ const Resume = () => {
     if (!showResume) {
       router.push("/");
     }
-  }, []);
+  }, [router]);
   return (
     <>
       {process.env.NODE_ENV === "development" && (
@@ -68,6 +68,42 @@ const Resume = () => {
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Certificates</h1>
                 <div className="flex flex-col gap-4 mt-2">
+                  <div
+                    className={`flex items-center justify-between p-4 rounded transition-colors duration-300
+                      ${theme.theme === "dark" ? "bg-slate-700 text-white" : "bg-gray-100 text-gray-900"}`}
+                  >
+                    <span className="font-semibold">Ostad - MERN Stack Certificate of Assesment</span>
+                    <Button
+                      type="primary"
+                      onClick={() =>
+                        window.open(
+                          '/Aditya%20Singha-mernstack%2014-A48107.pdf',
+                          '_blank',
+                          'noopener,noreferrer'
+                        )
+                      }
+                    >
+                      View
+                    </Button>
+                  </div>
+                  <div
+                    className={`flex items-center justify-between p-4 rounded transition-colors duration-300
+                      ${theme.theme === "dark" ? "bg-slate-700 text-white" : "bg-gray-100 text-gray-900"}`}
+                  >
+                    <span className="font-semibold">Ostad - MERN Stack Certificate of Completion</span>
+                    <Button
+                      type="primary"
+                      onClick={() =>
+                        window.open(
+                          '/Aditya%20Singha-mernstack%2014-C48106.pdf',
+                          '_blank',
+                          'noopener,noreferrer'
+                        )
+                      }
+                    >
+                      View
+                    </Button>
+                  </div>
                   <div
                     className={`flex items-center justify-between p-4 rounded transition-colors duration-300
                       ${theme.theme === "dark" ? "bg-slate-700 text-white" : "bg-gray-100 text-gray-900"}`}
