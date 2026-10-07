@@ -7,6 +7,7 @@ import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
 import Footer from "../components/Footer";
 import Head from "next/head";
+import Image from "next/image";
 import Button from "../components/Button";
 import Link from "next/link";
 import Cursor from "../components/Cursor";
@@ -63,8 +64,8 @@ export default function Home() {
           handleWorkScroll={handleWorkScroll}
           handleAboutScroll={handleAboutScroll}
         />
-        <div className="laptop:mt-20 mt-10">
-          <div className="mt-5">
+        <div className="laptop:mt-20 mt-10 flex flex-col tablet:flex-row items-center tablet:justify-between gap-8 p-2">
+          <div className="mt-5 w-full tablet:w-3/4">
             <h1
               ref={textOne}
               className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl p-1 tablet:p-2 text-bold w-4/5 mob:w-full laptop:w-4/5"
@@ -89,9 +90,17 @@ export default function Home() {
             >
               {data.headerTaglineFour}
             </h1>
+            <Socials className="mt-2 laptop:mt-5" />
           </div>
-
-          <Socials className="mt-2 laptop:mt-5" />
+          <Image
+            src="/images/Aditya_image.PNG"
+            alt="Aditya Singha"
+            width={320}
+            height={320}
+            objectFit="cover"
+            objectPosition="center"
+            className="h-40 w-40 flex-shrink-0 rounded-full border-4 border-white shadow-lg tablet:h-52 tablet:w-52 laptop:h-64 laptop:w-64"
+          />
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
           <h1 className="text-2xl text-bold">Projects</h1>
