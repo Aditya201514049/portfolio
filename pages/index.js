@@ -96,10 +96,10 @@ export default function Home() {
             src="/images/Aditya_image.PNG"
             alt="Aditya Singha"
             width={320}
-            height={320}
+            height={427}
             objectFit="cover"
             objectPosition="center"
-            className="h-40 w-40 flex-shrink-0 rounded-full border-4 border-white shadow-lg tablet:h-52 tablet:w-52 laptop:h-64 laptop:w-64"
+            className="h-52 w-40 flex-shrink-0 rounded-lg border-4 border-white shadow-lg tablet:h-72 tablet:w-52 laptop:h-80 laptop:w-60"
           />
         </div>
         <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
