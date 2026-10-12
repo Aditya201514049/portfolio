@@ -32,10 +32,12 @@ const WorkCard = ({ img, name, description, onClick, techStack, githubUrl }) => 
   };
   return (
     <div
-      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0 link"
-      onClick={onClick}
+      className="overflow-hidden rounded-lg p-2 laptop:p-4 first:ml-0"
     >
-      <div className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto">
+      <div
+        className="relative rounded-lg overflow-hidden transition-all ease-out duration-300 h-48 mob:h-auto link cursor-pointer"
+        onClick={onClick}
+      >
         <Image
           alt={name}
           src={`/images/${img}`}
@@ -53,7 +55,7 @@ const WorkCard = ({ img, name, description, onClick, techStack, githubUrl }) => 
       </h2>
       
       {techStack && techStack.length > 0 && (
-        <div className="mt-4 flex flex-wrap gap-4">
+        <div className="mt-4 flex flex-wrap gap-4 cursor-default">
           {/* GitHub repository link if available */}
           {githubUrl && (
             <div className="relative group">
